@@ -50,7 +50,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>jsp 버전 댄스 리스트</h1>
+<h1>mvc 버전 댄스 리스트</h1>
 <ul>
     <%
         for (String key : dancerMap.keySet()) {
@@ -65,7 +65,7 @@
     %>
 </ul>
 
-<a href="/chap03/dancer/register.jsp">재등록하기</a>
+<a href="/chap04/dancer/register.jsp">재등록하기</a>
 
 </body>
 </html>
